@@ -6,10 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    user_agent = request.headers.get('User-Agent')
     user_ip = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
-    tele.send_message(str(user_ip))
-    tele.send_message(str(user_agent))
+    tele.send_message(str(f"User from: {user_ip}"))
     print(user_ip)
     return render_template('index.html')
     
