@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan Kolmogorov</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="head-button" href="#home">Home</a></li>
+                <li><a class="head-button" href="#about">About</a></li>
+                <li><a class="head-button" href="#skills">Skills</a></li>
+                <li><a class="head-button" href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="welcome-section" id="home">
+        <div class="left-container">
+            <div class="hello">
+                <div class="socials">
+                    <a href="#"><img class="icon" src="static/gh.png"></a>
+                    <a href="#"><img class="icon" src="static/insta.png"></a>
+                    <a href="#"><img class="icon" src="static/yt.png"></a>
+                    <a href="#"><img class="icon" src="static/email.png"></a>
+                </div>
+                <h1>Hi, I'm Stefan</h1>
+                <div class="who">
+                    <div class="words">
+                        <div class="word">Web Developer</div>
+                        <div class="word">Game Developer</div>
+                        <div class="word">Software Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="pfp">
+                <div class="window">
+                    <div class="window-content">
+                        <h1>IMG_2871.png</h1>
+                        <span class="material-symbols-outlined">
+                        close
+                        </span>
+                    </div>
+                </div>
+                <img src="static/IMG_2871.png">
+            </div>
+        </div>
+    </section>
+    <section class="about-container" id="about">
+        <div class="about-title">
+            <h1>{About me}</h1>
+        </div>
+        <div class="description-container">
+            <div class="console-content">
+                <h1>About_Me.exe</h1>
+            </div>
+            <div class="description">
+                <h1>I am a <span class="highlighted">17-year-old</span> developer from <span class="highlighted">Malmö, Sweden.</span> I am a student at Teknik school <span class="highlighted">Pauliksolan</span> 
+                    I love to program in my free time and enjoy learning new <span class="highlighted">things</span>. I also have a passion for playing and creating games, 
+                    and I have been making games for <span class="highlighted">three years</span> now.
+                </h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
