@@ -287,7 +287,13 @@ h1 {
     .left-container, .right-container {
       width: 100%;
     }
-    
+    .hello{
+        width: 100%;
+    }
+    .hello div{
+        display: flex;
+        justify-content: center;
+    }
     .hello h1 {
         font-size: 8vw;
     }
@@ -324,6 +330,12 @@ h1 {
     }
     .description{
         font-size: 1vh;
+    }
+    .typewrite{
+        font-size: 2rem;
+    }
+    .developer{
+        font-size: 2rem;
     }
   }
   
