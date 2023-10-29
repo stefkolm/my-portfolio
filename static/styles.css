@@ -36,6 +36,15 @@ nav ul li a {
     font-size: 1.4rem;
     transition: all 0.5s;
 }
+.typewrite{
+    color: #93e099;
+    font-size: 4rem;
+    text-decoration: none;
+    animation: Color 4s linear infinite;
+}
+.developer{
+    font-size: 4rem;
+}
 .head-button:hover{
     color: white;
 }
@@ -55,7 +64,7 @@ h1 {
     display: flex;
 }
 .left-container{
-    height: 60%;
+    height: 90%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -123,6 +132,37 @@ h1 {
 .icon:hover{
     transform: translateY(-10px);
 }
+@keyframes Color{
+    0%{
+      color:#A0D468;
+      text-shadow: 0 0 20px #A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+      text-shadow: 0 0 20px #4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+      text-shadow: 0 0 20px #FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+      text-shadow: 0 0 20px #FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+      text-shadow: 0 0 20px #ED5565;
+    }
+    
+    100%{
+      color:#A0D468;
+      text-shadow: 0 0 20px #A0D468;
+    }
+  }
 @keyframes switch {
  
     0%,
@@ -140,7 +180,7 @@ h1 {
 }
 .pfp{
     background-color:#131313;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
