@@ -3,10 +3,7 @@ import tele
 
 app = Flask(__name__)
 
-@app.before_request
-def before_request():
-    if not request.is_secure:
-        return redirect("https://www.stefkolm.com/")
+
 
 @app.route('/')
 def home():
